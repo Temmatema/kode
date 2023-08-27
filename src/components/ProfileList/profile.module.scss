@@ -1,0 +1,7 @@
+.block {
+  @apply flex items-center gap-4;
+}
+
+.avatar {
+  @apply w-[4.5rem] h-[4.5rem] rounded-full;
+}

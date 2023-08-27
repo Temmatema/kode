@@ -1,0 +1,21 @@
+.search {
+  @apply bg-slate-50 h-10 rounded-xl 
+  px-3 flex items-center transition-all
+}
+
+.svg {
+  @apply stroke-slate-300 min-w-[1.5rem] w-6 h-6 mr-2 transition-colors order-1;
+}
+
+.input {
+  @apply font-inter placeholder:font-inter order-2 w-full
+  text-base bg-transparent placeholder:text-slate-300 focus:outline-none caret-purple-600
+}
+
+.input:focus + .svg {
+  @apply stroke-black
+}
+
+.btn {
+  @apply font-bold text-purple-600
+}

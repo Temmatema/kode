@@ -1,0 +1,15 @@
+.filters {
+  @apply flex overflow-scroll mb-5
+}
+
+.filters::-webkit-scrollbar {
+  width: 0;
+}
+
+.button {
+  @apply py-2 px-3 text-slate-400 font-semibold border-b-2 border-transparent
+}
+
+.button-active {
+  @apply text-black border-b-purple-500
+}

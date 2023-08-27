@@ -1,0 +1,62 @@
+.wrap {
+  @apply flex flex-col gap-4;
+}
+
+.block {
+  @apply flex items-center gap-4;
+}
+
+.avatar {
+  @apply w-[4.5rem] h-[4.5rem] rounded-full;
+  background: linear-gradient(270deg, #f3f3f6, #fafafa);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationGradient 2s ease infinite;
+  animation: AnimationGradient 2s ease infinite;
+}
+
+.block__right {
+  @apply flex flex-col gap-[6px];
+}
+
+.block__title {
+  @apply h-4 w-36 rounded-lg;
+  background: linear-gradient(270deg, #f3f3f6, #fafafa);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationGradient 2s ease infinite;
+  animation: AnimationGradient 2s ease infinite;
+}
+
+.block__text {
+  @apply h-4 w-20 rounded-lg;
+  background: linear-gradient(270deg, #f3f3f6, #fafafa);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationGradient 2s ease infinite;
+  animation: AnimationGradient 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
